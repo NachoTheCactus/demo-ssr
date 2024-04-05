@@ -1,0 +1,692 @@
+[
+  {
+    "id": 0,
+    "title": "The Royal Albert Hall",
+    "open": true,
+    "location": "Kensington Gore, Kensington Road, London",
+    "review": 4.98,
+    "opening_hours": {
+      "monday": "6:30 AM - 11:00 PM",
+      "tuesday": "6:30 AM - 11:00 PM",
+      "wednesday": "6:30 AM - 11:00 PM",
+      "thursday": "6:30 AM - 11:00 PM",
+      "friday": "6:30 AM - 11:00 PM",
+      "saturday": "8:00 AM - 9:00 PM",
+      "sunday": "8:00 AM - 9:00 PM"
+    },
+    "details": {
+      "phone": "+1 304-459-3023",
+      "website": "https://locations.wendys.com/united-states/wv/chester/649-carolina-ave",
+      "categories": "Fast Food, Restaurants",
+      "cylex_url": "https://www.cylex.us.com/company/wendy%27s-37149231.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 1,
+    "title": "Burger King",
+    "open": true,
+    "location": "123 Main Street, Anytown, USA",
+    "review": 3.75,
+    "opening_hours": {
+      "monday": "7:00 AM - 10:00 PM",
+      "tuesday": "7:00 AM - 10:00 PM",
+      "wednesday": "7:00 AM - 10:00 PM",
+      "thursday": "7:00 AM - 10:00 PM",
+      "friday": "7:00 AM - 11:00 PM",
+      "saturday": "8:00 AM - 11:00 PM",
+      "sunday": "8:00 AM - 9:00 PM"
+    },
+    "details": {
+      "phone": "+1 555-123-4567",
+      "website": "https://www.bk.com/",
+      "categories": "Fast Food, Restaurants",
+      "cylex_url": "https://www.cylex.us.com/company/burger-king.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 2,
+    "title": "McDonald's",
+    "open": false,
+    "location": "456 Elm Street, Springfield, USA",
+    "review": 4.25,
+    "opening_hours": {
+      "monday": "8:00 AM - 9:00 PM",
+      "tuesday": "8:00 AM - 9:00 PM",
+      "wednesday": "8:00 AM - 9:00 PM",
+      "thursday": "8:00 AM - 9:00 PM",
+      "friday": "8:00 AM - 10:00 PM",
+      "saturday": "9:00 AM - 10:00 PM",
+      "sunday": "9:00 AM - 8:00 PM"
+    },
+    "details": {
+      "phone": "+1 555-987-6543",
+      "website": "https://www.mcdonalds.com/",
+      "categories": "Fast Food, Restaurants",
+      "cylex_url": "https://www.cylex.us.com/company/mcdonalds.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 3,
+    "title": "Subway",
+    "open": true,
+    "location": "789 Oak Street, Smalltown, USA",
+    "review": 4.0,
+    "opening_hours": {
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "9:00 AM - 9:00 PM",
+      "saturday": "10:00 AM - 9:00 PM",
+      "sunday": "10:00 AM - 7:00 PM"
+    },
+    "details": {
+      "phone": "+1 555-222-3333",
+      "website": "https://www.subway.com/",
+      "categories": "Sandwiches, Restaurants",
+      "cylex_url": "https://www.cylex.us.com/company/subway.html",
+      "verified": false
+    }
+  },
+  {
+    "id": 4,
+    "title": "Taco Bell",
+    "open": true,
+    "location": "321 Pine Avenue, Bigcity, USA",
+    "review": 3.8,
+    "opening_hours": {
+      "monday": "10:00 AM - 10:00 PM",
+      "tuesday": "10:00 AM - 10:00 PM",
+      "wednesday": "10:00 AM - 10:00 PM",
+      "thursday": "10:00 AM - 10:00 PM",
+      "friday": "10:00 AM - 11:00 PM",
+      "saturday": "11:00 AM - 11:00 PM",
+      "sunday": "11:00 AM - 9:00 PM"
+    },
+    "details": {
+      "phone": "+1 555-777-8888",
+      "website": "https://www.tacobell.com/",
+      "categories": "Mexican, Fast Food, Restaurants",
+      "cylex_url": "https://www.cylex.us.com/company/taco-bell.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 5,
+    "title": "Pizza Hut",
+    "open": true,
+    "location": "246 Cherry Lane, Metroville, USA",
+    "review": 4.3,
+    "opening_hours": {
+      "monday": "11:00 AM - 9:00 PM",
+      "tuesday": "11:00 AM - 9:00 PM",
+      "wednesday": "11:00 AM - 9:00 PM",
+      "thursday": "11:00 AM - 9:00 PM",
+      "friday": "11:00 AM - 10:00 PM",
+      "saturday": "12:00 PM - 10:00 PM",
+      "sunday": "12:00 PM - 8:00 PM"
+    },
+    "details": {
+      "phone": "+1 555-999-1111",
+      "website": "https://www.pizzahut.com/",
+      "categories": "Pizza, Italian, Restaurants",
+      "cylex_url": "https://www.cylex.us.com/company/pizza-hut.html",
+      "verified": false
+    }
+  },
+  {
+    "id": 6,
+    "title": "KFC",
+    "open": false,
+    "location": "789 Maple Street, Rivertown, USA",
+    "review": 4.6,
+    "opening_hours": {
+      "monday": "10:30 AM - 9:00 PM",
+      "tuesday": "10:30 AM - 9:00 PM",
+      "wednesday": "10:30 AM - 9:00 PM",
+      "thursday": "10:30 AM - 9:00 PM",
+      "friday": "10:30 AM - 10:00 PM",
+      "saturday": "11:30 AM - 10:00 PM",
+      "sunday": "11:30 AM - 8:00 PM"
+    },
+    "details": {
+      "phone": "+1 555-777-9999",
+      "website": "https://www.kfc.com/",
+      "categories": "Fast Food, Restaurants",
+      "cylex_url": "https://www.cylex.us.com/company/kfc.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 7,
+    "title": "Domino's Pizza",
+    "open": true,
+    "location": "369 Walnut Street, Greentown, USA",
+    "review": 4.8,
+    "opening_hours": {
+      "monday": "11:00 AM - 10:00 PM",
+      "tuesday": "11:00 AM - 10:00 PM",
+      "wednesday": "11:00 AM - 10:00 PM",
+      "thursday": "11:00 AM - 10:00 PM",
+      "friday": "11:00 AM - 11:00 PM",
+      "saturday": "12:00 PM - 11:00 PM",
+      "sunday": "12:00 PM - 9:00 PM"
+    },
+    "details": {
+      "phone": "+1 555-444-5555",
+      "website": "https://www.dominos.com/",
+      "categories": "Pizza, Italian, Restaurants",
+      "cylex_url": "https://www.cylex.us.com/company/dominos-pizza.html",
+      "verified": false
+    }
+  },
+  {
+    "id": 8,
+    "title": "Starbucks",
+    "open": true,
+    "location": "987 Oakwood Avenue, Hillcrest, USA",
+    "review": 4.2,
+    "opening_hours": {
+      "monday": "6:00 AM - 9:00 PM",
+      "tuesday": "6:00 AM - 9:00 PM",
+      "wednesday": "6:00 AM - 9:00 PM",
+      "thursday": "6:00 AM - 9:00 PM",
+      "friday": "6:00 AM - 10:00 PM",
+      "saturday": "7:00 AM - 10:00 PM",
+      "sunday": "7:00 AM - 8:00 PM"
+    },
+    "details": {
+      "phone": "+1 555-666-7777",
+      "website": "https://www.starbucks.com/",
+      "categories": "Coffee, Cafe, Restaurants",
+      "cylex_url": "https://www.cylex.us.com/company/starbucks.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 9,
+    "title": "Chipotle Mexican Grill",
+    "open": true,
+    "location": "741 Pine Street, Hillside, USA",
+    "review": 4.7,
+    "opening_hours": {
+      "monday": "10:45 AM - 10:00 PM",
+      "tuesday": "10:45 AM - 10:00 PM",
+      "wednesday": "10:45 AM - 10:00 PM",
+      "thursday": "10:45 AM - 10:00 PM",
+      "friday": "10:45 AM - 11:00 PM",
+      "saturday": "11:00 AM - 11:00 PM",
+      "sunday": "11:00 AM - 9:00 PM"
+    },
+    "details": {
+      "phone": "+1 555-888-9999",
+      "website": "https://www.chipotle.com/",
+      "categories": "Mexican, Fast Food, Restaurants",
+      "cylex_url": "https://www.cylex.us.com/company/chipotle-mexican-grill.html",
+      "verified": false
+    }
+  },
+  {
+    "id": 10,
+    "title": "The London Eye",
+    "open": true,
+    "location": "Riverside Building, County Hall, Westminster Bridge Road, London",
+    "review": 4.67,
+    "opening_hours": {
+      "monday": "9:00 AM - 9:00 PM",
+      "tuesday": "9:00 AM - 9:00 PM",
+      "wednesday": "9:00 AM - 9:00 PM",
+      "thursday": "9:00 AM - 9:00 PM",
+      "friday": "9:00 AM - 10:00 PM",
+      "saturday": "8:00 AM - 10:00 PM",
+      "sunday": "8:00 AM - 10:00 PM"
+    },
+    "details": {
+      "phone": "+1 804-312-7890",
+      "website": "https://www.londoneye.com/",
+      "categories": "Tourist Attraction, Sightseeing Tours",
+      "cylex_url": "https://www.cylex.co.uk/company/the-london-eye-18300973.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 11,
+    "title": "Buckingham Palace",
+    "open": false,
+    "location": "Westminster, London SW1A 1AA, United Kingdom",
+    "review": 4.92,
+    "opening_hours": {
+      "monday": "Closed",
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "10:00 AM - 6:00 PM"
+    },
+    "details": {
+      "phone": "+1 202-456-1414",
+      "website": "https://www.rct.uk/visit/the-state-rooms-buckingham-palace",
+      "categories": "Palace, Landmarks & Historical Buildings",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/buckingham-palace-16355107.html",
+      "verified": false
+    }
+  },
+  {
+    "id": 12,
+    "title": "British Museum",
+    "open": true,
+    "location": "Great Russell St, Bloomsbury, London",
+    "review": 4.85,
+    "opening_hours": {
+      "monday": "10:00 AM - 5:00 PM",
+      "tuesday": "10:00 AM - 5:00 PM",
+      "wednesday": "10:00 AM - 5:00 PM",
+      "thursday": "10:00 AM - 5:00 PM",
+      "friday": "10:00 AM - 8:30 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "10:00 AM - 5:00 PM"
+    },
+    "details": {
+      "phone": "+1 212-708-9400",
+      "website": "https://www.britishmuseum.org/",
+      "categories": "Museum, Art Museums",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/british-museum-13421912.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 13,
+    "title": "Tower of London",
+    "open": true,
+    "location": "St Katharine's & Wapping, London EC3N 4AB, United Kingdom",
+    "review": 4.76,
+    "opening_hours": {
+      "monday": "9:00 AM - 5:30 PM",
+      "tuesday": "9:00 AM - 5:30 PM",
+      "wednesday": "9:00 AM - 5:30 PM",
+      "thursday": "9:00 AM - 5:30 PM",
+      "friday": "9:00 AM - 5:30 PM",
+      "saturday": "9:00 AM - 5:30 PM",
+      "sunday": "9:00 AM - 5:30 PM"
+    },
+    "details": {
+      "phone": "+1 212-312-9442",
+      "website": "https://www.hrp.org.uk/tower-of-london/",
+      "categories": "Historic Site, Landmarks & Historical Buildings",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/tower-of-london-12952255.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 14,
+    "title": "Shakespeare's Globe",
+    "open": true,
+    "location": "21 New Globe Walk, Bankside, London",
+    "review": 4.82,
+    "opening_hours": {
+      "monday": "10:00 AM - 5:00 PM",
+      "tuesday": "10:00 AM - 5:00 PM",
+      "wednesday": "10:00 AM - 5:00 PM",
+      "thursday": "10:00 AM - 5:00 PM",
+      "friday": "10:00 AM - 5:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "10:00 AM - 5:00 PM"
+    },
+    "details": {
+      "phone": "+1 212-769-5100",
+      "website": "https://www.shakespearesglobe.com/",
+      "categories": "Theater, Performing Arts",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/shakespeare's-globe-12952280.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 15,
+    "title": "St. Paul's Cathedral",
+    "open": true,
+    "location": "St. Paul's Churchyard, London",
+    "review": 4.88,
+    "opening_hours": {
+      "monday": "8:30 AM - 4:30 PM",
+      "tuesday": "8:30 AM - 4:30 PM",
+      "wednesday": "8:30 AM - 4:30 PM",
+      "thursday": "8:30 AM - 4:30 PM",
+      "friday": "8:30 AM - 4:30 PM",
+      "saturday": "8:30 AM - 4:30 PM",
+      "sunday": "Closed"
+    },
+    "details": {
+      "phone": "+1 202-727-1100",
+      "website": "https://www.stpauls.co.uk/",
+      "categories": "Cathedral, Religious Sites",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/st-paul's-cathedral-17139441.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 16,
+    "title": "Westminster Abbey",
+    "open": false,
+    "location": "20 Deans Yd, Westminster, London",
+    "review": 4.94,
+    "opening_hours": {
+      "monday": "9:30 AM - 3:30 PM",
+      "tuesday": "9:30 AM - 3:30 PM",
+      "wednesday": "9:30 AM - 3:30 PM",
+      "thursday": "9:30 AM - 3:30 PM",
+      "friday": "9:30 AM - 3:30 PM",
+      "saturday": "9:30 AM - 3:30 PM",
+      "sunday": "Closed"
+    },
+    "details": {
+      "phone": "+1 202-737-4215",
+      "website": "https://www.westminster-abbey.org/",
+      "categories": "Church, Tourist Attraction",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/westminster-abbey-12952137.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 17,
+    "title": "The Shard",
+    "open": true,
+    "location": "32 London Bridge St, London",
+    "review": 4.79,
+    "opening_hours": {
+      "monday": "10:00 AM - 10:00 PM",
+      "tuesday": "10:00 AM - 10:00 PM",
+      "wednesday": "10:00 AM - 10:00 PM",
+      "thursday": "10:00 AM - 10:00 PM",
+      "friday": "10:00 AM - 10:00 PM",
+      "saturday": "10:00 AM - 10:00 PM",
+      "sunday": "10:00 AM - 10:00 PM"
+    },
+    "details": {
+      "phone": "+1 202-312-1234",
+      "website": "https://www.the-shard.com/",
+      "categories": "Skyscraper, Observation Decks & Towers",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/the-shard-23867912.html",
+      "verified": false
+    }
+  },
+  {
+    "id": 18,
+    "title": "Hyde Park",
+    "open": true,
+    "location": "London W2 2UH, United Kingdom",
+    "review": 4.89,
+    "opening_hours": {
+      "monday": "5:00 AM - 12:00 AM",
+      "tuesday": "5:00 AM - 12:00 AM",
+      "wednesday": "5:00 AM - 12:00 AM",
+      "thursday": "5:00 AM - 12:00 AM",
+      "friday": "5:00 AM - 12:00 AM",
+      "saturday": "5:00 AM - 12:00 AM",
+      "sunday": "5:00 AM - 12:00 AM"
+    },
+    "details": {
+      "phone": "+1 202-555-0192",
+      "website": "https://www.royalparks.org.uk/parks/hyde-park",
+      "categories": "Park, Nature & Parks",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/hyde-park-12952066.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 19,
+    "title": "Tate Modern",
+    "open": true,
+    "location": "Bankside, London SE1 9TG, United Kingdom",
+    "review": 4.76,
+    "opening_hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 10:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "10:00 AM - 6:00 PM"
+    },
+    "details": {
+      "phone": "+1 202-737-4200",
+      "website": "https://www.tate.org.uk/visit/tate-modern",
+      "categories": "Art Museum, Museums",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/tate-modern-12951966.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 20,
+    "title": "The National Gallery",
+    "open": true,
+    "location": "Trafalgar Square, Charing Cross, London",
+    "review": 4.81,
+    "opening_hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 9:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "10:00 AM - 6:00 PM"
+    },
+    "details": {
+      "phone": "+1 202-555-0166",
+      "website": "https://www.nationalgallery.org.uk/",
+      "categories": "Art Gallery, Museums",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/the-national-gallery-12951941.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 21,
+    "title": "Royal Observatory Greenwich",
+    "open": true,
+    "location": "Blackheath Ave, London SE10 8XJ, United Kingdom",
+    "review": 4.79,
+    "opening_hours": {
+      "monday": "10:00 AM - 5:00 PM",
+      "tuesday": "10:00 AM - 5:00 PM",
+      "wednesday": "10:00 AM - 5:00 PM",
+      "thursday": "10:00 AM - 5:00 PM",
+      "friday": "10:00 AM - 5:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "10:00 AM - 5:00 PM"
+    },
+    "details": {
+      "phone": "+1 202-312-5117",
+      "website": "https://www.rmg.co.uk/royal-observatory",
+      "categories": "Observatory, Museums",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/royal-observatory-12951855.html",
+      "verified": false
+    }
+  },
+  {
+    "id": 22,
+    "title": "Covent Garden",
+    "open": true,
+    "location": "Covent Garden, London WC2E 9DD, United Kingdom",
+    "review": 4.87,
+    "opening_hours": {
+      "monday": "10:00 AM - 8:00 PM",
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "10:00 AM - 8:00 PM",
+      "thursday": "10:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 8:00 PM",
+      "sunday": "10:00 AM - 8:00 PM"
+    },
+    "details": {
+      "phone": "+1 202-555-0143",
+      "website": "https://coventgarden.london/",
+      "categories": "Market, Shopping",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/covent-garden-12951963.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 23,
+    "title": "Madame Tussauds London",
+    "open": true,
+    "location": "Marylebone Rd, Marylebone, London NW1 5LR, United Kingdom",
+    "review": 4.73,
+    "opening_hours": {
+      "monday": "10:00 AM - 4:00 PM",
+      "tuesday": "10:00 AM - 4:00 PM",
+      "wednesday": "10:00 AM - 4:00 PM",
+      "thursday": "10:00 AM - 4:00 PM",
+      "friday": "10:00 AM - 4:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "10:00 AM - 4:00 PM"
+    },
+    "details": {
+      "phone": "+1 202-727-1000",
+      "website": "https://www.madametussauds.com/london/en/",
+      "categories": "Museum, Tourist Attraction",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/madame-tussauds-12952251.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 24,
+    "title": "National Maritime Museum",
+    "open": false,
+    "location": "Park Row, Greenwich Peninsula, London SE10 9NF, United Kingdom",
+    "review": 4.92,
+    "opening_hours": {
+      "monday": "10:00 AM - 5:00 PM",
+      "tuesday": "10:00 AM - 5:00 PM",
+      "wednesday": "10:00 AM - 5:00 PM",
+      "thursday": "10:00 AM - 5:00 PM",
+      "friday": "10:00 AM - 5:00 PM",
+      "saturday": "10:00 AM - 5:00 PM",
+      "sunday": "Closed"
+    },
+    "details": {
+      "phone": "+1 202-727-2555",
+      "website": "https://www.rmg.co.uk/national-maritime-museum",
+      "categories": "Museum, History Museums",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/national-maritime-museum-12951841.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 25,
+    "title": "The O2",
+    "open": true,
+    "location": "Peninsula Square, London SE10 0DX, United Kingdom",
+    "review": 4.78,
+    "opening_hours": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 6:00 PM",
+      "thursday": "9:00 AM - 6:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "9:00 AM - 6:00 PM",
+      "sunday": "9:00 AM - 6:00 PM"
+    },
+    "details": {
+      "phone": "+1 202-312-1416",
+      "website": "https://www.theo2.co.uk/",
+      "categories": "Arena, Music Venues",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/the-o2-12951936.html",
+      "verified": false
+    }
+  },
+  {
+    "id": 26,
+    "title": "London Zoo",
+    "open": true,
+    "location": "Regent's Park, London NW1 4RY, United Kingdom",
+    "review": 4.75,
+    "opening_hours": {
+      "monday": "10:00 AM - 4:00 PM",
+      "tuesday": "10:00 AM - 4:00 PM",
+      "wednesday": "10:00 AM - 4:00 PM",
+      "thursday": "10:00 AM - 4:00 PM",
+      "friday": "10:00 AM - 4:00 PM",
+      "saturday": "10:00 AM - 4:00 PM",
+      "sunday": "10:00 AM - 4:00 PM"
+    },
+    "details": {
+      "phone": "+1 202-312-7100",
+      "website": "https://www.zsl.org/zsl-london-zoo",
+      "categories": "Zoo, Zoos",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/london-zoo-12952031.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 27,
+    "title": "Royal Botanic Gardens, Kew",
+    "open": true,
+    "location": "Kew, Richmond, London TW9 3AB, United Kingdom",
+    "review": 4.84,
+    "opening_hours": {
+      "monday": "10:00 AM - 6:00 PM",
+      "tuesday": "10:00 AM - 6:00 PM",
+      "wednesday": "10:00 AM - 6:00 PM",
+      "thursday": "10:00 AM - 6:00 PM",
+      "friday": "10:00 AM - 6:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "10:00 AM - 6:00 PM"
+    },
+    "details": {
+      "phone": "+1 202-312-5445",
+      "website": "https://www.kew.org/",
+      "categories": "Botanical Garden, Parks",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/royal-botanic-gardens-kew-12952016.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 28,
+    "title": "Leicester Square",
+    "open": true,
+    "location": "Leicester Square, London WC2H 7DE, United Kingdom",
+    "review": 4.81,
+    "opening_hours": {
+      "monday": "24 Hours",
+      "tuesday": "24 Hours",
+      "wednesday": "24 Hours",
+      "thursday": "24 Hours",
+      "friday": "24 Hours",
+      "saturday": "24 Hours",
+      "sunday": "24 Hours"
+    },
+    "details": {
+      "phone": "+1 202-555-0147",
+      "website": "https://www.leicestersquare.london/",
+      "categories": "Square, Landmarks & Historical Buildings",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/leicester-square-12951971.html",
+      "verified": true
+    }
+  },
+  {
+    "id": 29,
+    "title": "Trafalgar Square",
+    "open": true,
+    "location": "Trafalgar Square, London WC2N 5DN, United Kingdom",
+    "review": 4.87,
+    "opening_hours": {
+      "monday": "24 Hours",
+      "tuesday": "24 Hours",
+      "wednesday": "24 Hours",
+      "thursday": "24 Hours",
+      "friday": "24 Hours",
+      "saturday": "24 Hours",
+      "sunday": "24 Hours"
+    },
+    "details": {
+      "phone": "+1 202-555-0157",
+      "website": "https://www.london.gov.uk/about-us/our-building-and-squares/trafalgar-square",
+      "categories": "Square, Landmarks & Historical Buildings",
+      "cylex_url": "https://www.cylex-uk.co.uk/company/trafalgar-square-12951989.html",
+      "verified": true
+    }
+  }
+]
