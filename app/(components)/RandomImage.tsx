@@ -11,7 +11,7 @@ export default function RandomImage({imgId, className}:{imgId:number, className?
   useEffect(() => {
     const fetchDataURI = async () => {
       try {
-        const response = await fetch(`http://localhost:${process.env.NEXT_PUBLIC_APP_PORT}/api/random-image/${imgId+250}`);
+        const response = await fetch(`/api/random-image/${imgId+250}`);
         if (!response.ok) {
           throw new Error('Failed to fetch data URI');
         }

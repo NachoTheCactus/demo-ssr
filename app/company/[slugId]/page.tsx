@@ -14,7 +14,7 @@ export default async function CompanyPage({ params }: { params: { slugId: string
     return words[words.length - 1];
   }
 
-  const res = await fetch(`http://localhost:${process.env.NEXT_PUBLIC_APP_PORT}/api/company/${params.slugId}`);
+  const res = await fetch(`/api/company/${params.slugId}`);
   const data = await res.json();
 
   return (

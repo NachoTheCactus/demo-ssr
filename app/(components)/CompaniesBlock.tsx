@@ -16,7 +16,7 @@ export default function CompaniesBlock() {
   const fetchData = async (pageNr: number) => {
     try {
       setLoading(true);
-      const res = await fetch(`http://localhost:${process.env.NEXT_PUBLIC_APP_PORT}/api/companies?page=${pageNr}&limit=${itemsPerPage}`);
+      const res = await fetch(`/api/companies?page=${pageNr}&limit=${itemsPerPage}`);
       const jsonData = await res.json();
       setLoading(false);
       setPagesData(prevState => {
@@ -31,7 +31,7 @@ export default function CompaniesBlock() {
 
   const fetchLength = async () => {
     try {
-      const res = await fetch(`http://localhost:${process.env.NEXT_PUBLIC_APP_PORT}/api/companiesl`);
+      const res = await fetch(`/api/companiesl`);
       const jsonData = await res.json();
       setCompaniesLength(jsonData);
     } catch (error) {

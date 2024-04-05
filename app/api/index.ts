@@ -88,5 +88,5 @@ app.get('/api/random-image/:numberId', async (req:any, res:any) => {
   }
 });
 
-const PORT = process.env.NEXT_PUBLIC_APP_PORT || 5000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

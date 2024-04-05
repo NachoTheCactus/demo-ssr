@@ -10,7 +10,7 @@ export default function NearbyComponentsClient() {
 
     const fetchData = async () => {
         try {
-            const res = await fetch(`http://localhost:${process.env.NEXT_PUBLIC_APP_PORT}/api/nearby-companies`);
+            const res = await fetch(`/api/nearby-companies`);
             const jsonData = await res.json();
             setData(jsonData);
         } catch (error) {
