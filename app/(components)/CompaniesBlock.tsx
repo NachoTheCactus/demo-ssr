@@ -88,7 +88,7 @@ export default function CompaniesBlock() {
 
     for(let i = 0; i < itemsPerPage; i++){
       arr.push(
-        <div className='flex w-full'>
+        <div key={i} className='flex w-full'>
           <div className='w-2 h-full animate-pulse bg-gray-500'></div>
           <div className={`p-4 flex gap-4 hover:bg-gray-100 w-full bg-white transition-colors duration-200`}>
             <div className='w-[120px] h-[120px] bg-gray-500 rounded-md shrink-0 animate-pulse'></div>
@@ -117,9 +117,9 @@ export default function CompaniesBlock() {
 
     for(let i = 0; i < itemsPerPage + 1; i++){
       if(i == 0 || i == itemsPerPage + 1-1){
-        arr.push(<div className="bg-gray-500 animate-pulse px-5 py-3 rounded-md"></div>)
+        arr.push(<div key={i} className="bg-gray-500 animate-pulse px-5 py-3 rounded-md"></div>)
       }else{
-        arr.push(<div className="bg-gray-500 animate-pulse px-4 py-3 rounded-md"></div>)
+        arr.push(<div key={i} className="bg-gray-500 animate-pulse px-4 py-3 rounded-md"></div>)
       }
     }
 
@@ -128,8 +128,8 @@ export default function CompaniesBlock() {
 
   return (
     <div className="container p-4 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4">
-      {!loading && currentPageData.map((company: any) => (
-        <Link className={`p-4 flex gap-4 hover:bg-gray-100 bg-white transition-colors duration-200 border-l-8 ${company.open ? 'border-l-green-500' : 'border-l-red-500'}`} href={`/company/${company.id}`} key={company.id}>
+      {!loading && currentPageData.map((company: any, i:any) => (
+        <Link key={company.title + i} className={`p-4 flex gap-4 hover:bg-gray-100 bg-white transition-colors duration-200 border-l-8 ${company.open ? 'border-l-green-500' : 'border-l-red-500'}`} href={`/company/${company.id}`}>
           <RandomImage imgId={company.id} />
           <div className='flex justify-between w-full'>
             <div>
