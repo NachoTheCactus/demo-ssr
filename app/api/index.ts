@@ -6,6 +6,8 @@ require('dotenv').config()
 
 const app = express();
 
+app.get("/", (req:any, res:any) => res.send("Express on Vercel"));
+
 app.use(function(req:any, res:any, next:any) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
